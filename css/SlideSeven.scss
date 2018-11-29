@@ -1,0 +1,29 @@
+.SlideSeven {
+    display: none;
+    @import 'RowOne';
+    .RowTwo {
+        img {
+            padding-top: 60px;
+        }
+    }
+    .RowThree {
+        padding-top: 50px;
+        div,
+        h1,
+        h2,
+        p {
+            padding-top: 10px;
+            color: $nice-white;
+            font-family: $font;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            color: $nice-white;
+        }
+        .arrow {
+            padding-top: 30px;
+        }
+    }
+}

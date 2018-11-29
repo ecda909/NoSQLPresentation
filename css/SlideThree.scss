@@ -1,0 +1,40 @@
+.SlideThree {
+    display: none;
+    @import 'RowOne';
+    .RowTwo {
+        p {
+            padding-top: 50px;
+            color: $nice-white;
+            font-size: 30px;
+        }
+        .span1 {
+            color: $blue;
+        }
+        .icon {
+            color: $green;
+        }
+        .icontwo {
+            color: $red;
+        }
+    }
+    .arrow {
+        color: $nice-white;
+        padding-top: 15%;
+        .btn {
+            span {
+                font-family: $font;
+            }
+            letter-spacing: 0.2rem;
+            font-size: 15px;
+            border: none;
+            border-radius:6px;
+            &:hover,
+            &:focus {
+                background-color: darken(#bffaa4, 5%);
+            }
+            &:active {
+                top: 2px;
+            }
+        }
+    }
+}

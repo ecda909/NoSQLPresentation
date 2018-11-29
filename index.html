@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NoSQL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="main.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../../css/main.css"></link>
+    <!-- JQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</head>
+
+<body onload="movenum();">
+    <div class="container SlideOne" style="display:block">
+        <div class="row justify-content-center RowOne">
+            <div>
+                <h1>Hello everyone,</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center RowTwo">
+            <h1>I'm <span>Eder Mazariegos</span></h1>
+        </div>
+        <div class="row justify-content-center RowTwo">
+            <h1>And this is No<span>SQL</span><span class="cursor">|</span></h1>
+        </div>
+        <div class="row justify-content-center dbimg">
+            <i class="fas fa-database fa-7x"></i>
+        </div>
+        <div class="row justify-content-center arrow">
+            <button type="button" class="btn btn-light" onclick="pagetwo()"><span>NEXT</span></button>
+        </div>
+    </div>
+    <!--Slide Two-->
+    <div class="container SlideTwo" style="display:none">
+        <div class="row justify-content-center RowOne">
+            <div>
+                <h1>Table Of Contents<span class="cursor">|</span></h1>
+            </div>
+        </div>
+        <div class="row justify-content-left toc">
+            <h2>No<span>SQL</span></h2>
+        </div>
+        <div class="row offset-md-1 tocsub">
+            <ul>
+                <li>Introduction<span class="span1">1</span></li>
+                <li>
+                    What is NoSQL?
+                    <span class="span2">2</span>
+                </li>
+                <li>History<span class="span3">3</span></li>
+                <li>Relational DB vs. Non Relational DB<span class="span4">4</span></li>
+                <li>Big DATA<span class="span5">5</span></li>
+                <li>Types of NoSQL DB's<span class="span6">6</span></li>
+                <li>NoSQL Today<span class="span7">7</span></li>
+                <li>Demonstration<span class="span8">8</span></li>
+                <li>Conclusion<span class="span9">9</span></li>
+                <li>Questions?<span class="span10">10</span></li>
+            </ul>
+        </div>
+        <div class="row justify-content-center arrow">
+            <button type="button" class="btn btn-light" onclick="pagethree()"><span>NEXT</span></button>
+        </div>
+    </div>
+    <!--Slide Three-->
+    <div class="container SlideThree" style="display:none">
+        <div class="row justify-content-center RowOne">
+            <div>
+                <h1>What is NoSQL<span class="cursor">?</span></h1>
+            </div>
+        </div>
+        <div class="row col-md-8 offset-md-2 justify-content-center RowTwo">
+            <p>
+                NoSQL(
+                <span class="span1">Not Only SQL</span>) is a non relational database that is used to store large or vast amounts of data. It is best used for storing non relational data and scaling out
+                <i class="fas fa-arrows-alt-h icon"></i> rather than up
+                <i class="fas fa-arrows-alt-v icontwo"></i> and as a result saves large companies millions every year. There are no schemas involved, no long advanced queries, and it makes data storage extremely scalable and highly available.
+            </p>
+        </div>
+        <div class="row justify-content-center arrow">
+            <button type="button" class="btn btn-light" onclick="pagefour()">
+                <span>NEXT</span>
+            </button>
+        </div>
+    </div>
+    <!--Slide Four-->
+    <div class="container SlideFour" style="display:none">
+        <div class="row justify-content-center RowOneYear">
+            <div>
+                <h1>HISTORY</h1>
+            </div>
+        </div>
+        <div class="row col-md-8 offset-md-2 justify-content-center RowTwoYear">
+            <div class="col-md-2">
+                <a href="javascript: year2000()">
+                    <h1>200<span class="number">0</span></h1>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="javascript: year2009()">
+                    <h1>200<span>9</span></h1>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="javascript: year2014()">
+                    <h1>20<span>14</span></h1>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="javascript: year2018()">
+                    <h1>20<span>18</span></h1>
+                </a>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <!-- Year 2000-2006 -->
+        <div class="row col-md-8 offset-2 justify-content-center RowThreeYear" style="display: none">
+            <p><span class="spanfront">200<span>0</span>
+                </span> Graphing Databases are invited. A graph database (GDB) is a database that uses graph structures for semantic queries with nodes, edges and properties to represent and store data. When importing data into a graph database, the relationships
+                are treated with as much value as the database records themselves. This allows the engine to navigate your connections between nodes in constant time. That compares favorably to the exponential slowdown of many-JOIN SQL-queries in a relational
+                database.
+                <a href="javascript: year2007()">
+                    <span><span class="spanfront">200</span>7</span>
+                </a>
+            </p>
+        </div>
+        <div class="row col-md-12 justify-content-center RowFourYear" style="display: none">
+            <div id="control" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/graphdb.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/graphdb2.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/graphdb3.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#control" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#control" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!-- Year 2007 -->
+        <div class="row col-md-8 offset-2 justify-content-center RowFiveYear" style="display: none">
+            <p>
+                <span class="spanfront">200<span>7</span>
+                </span> In 2007, two of the largest NoSQL database providers of 2018 (MongoDB and DynamoDB) began. MongoDB started as part of an open source cloud computing stack and the first standalone release later came in 2009. Additionally a research
+                paper was released on DynamoDB which led to its creation in 2012. DynamoDB is an AWS NoSQL Database that powers websites <button class="btn btn-outline-light btn-sm listaction0">like</button>. MongoDB also powers a wide variety of sites
+                as well <button class="btn btn-outline-light btn-sm listaction1">including</button> ...
+                <script>
+                    $('.listaction0').click(function() {
+                        $('.listone').slideToggle("slow")
+                    });
+                    $('.listaction1').click(function() {
+                        $('.listtwo').slideToggle("slow")
+                    });
+                </script>
+                <ul class="list-group listone" style="display: none">
+                    <li class="list-group-item"><b>Amazon</b> - Amazon workflow engines run on DynamoDB for millisecond response times, allowing customers to get their orders faster.</li>
+                    <li class="list-group-item"><b>Netflix</b> - Netflix uses DynamoDB to run A/B testing that builds personalized streaming experiences for their 125+ million customers.</li>
+                    <li class="list-group-item"><b>Samsung</b> - Samsung Electronics uses DynamoDB for their petabyte size mobile app backups, resulting in consistent high performance and cost savings.</li>
+                    <li class="list-group-item"><b>Snapchat</b> - Snap migrated their largest storage workload, Snapchat Stories, to DynamoDB and improved performance while reducing cost.</li>
+                    <li class="list-group-item"><b>Tinder</b> - Tinder migrated user data to DynamoDB with zero downtime, and leveraged DynamoDB's scalability to meet the needs of their growing global user base.</li>
+                    <li class="list-group-item"><b>Airbnb</b> - AirBnB uses DynamoDB to scale their operations to a global user base, while optimizing their real-time processing workflows to analyze data.</li>
+                </ul>
+                <ul class="list-group listtwo" style="display: none">
+                    <li class="list-group-item"><b>Adobe</b> - World's #1 Content Management solution relies on MongoDB for petabyte scale data management in the cloud.</li>
+                    <li class="list-group-item"><b>Ebay</b> - Multinational eCommerce store delivering all media metadata at 99.999% availability.</li>
+                    <li class="list-group-item"><b>Google</b> - MongoDB and Google Compute Engine offer the high performance, reliability and cost-effective scale designed for today's applications.</li>
+                    <li class="list-group-item"><b>Facebook</b> - Facebook adapted the storage engine API, extending MongoDB into new workloads and new capabilities.</li>
+                    <li class="list-group-item"><b>Verizon</b> - MongoDB helps Verizon Wireless get greater value from its data while simultaneously accelerating time-to-market and improving its asset utilization.</li>
+                    <li class="list-group-item"><b>EA</b> - The world's best-selling sports video game franchise relies on MongoDB to scale to millions of players</li>
+                </ul>
+            </p>
+        </div>
+        <!-- Year 2009 -->
+        <div class="row col-md-8 offset-2 justify-content-center RowSixYear" style="display: none">
+            <p class="para2009"><span class="spanfront">200<span>9</span></span> is the year of Redis. Redis is an open source, in-memory data structure store, used as a database, cache and message broker. It supports data structures such as strings, hashes, lists, sets,
+                sorted sets with range queries, bitmaps, hyperloglogs and geospatial indexes with radius queries. <button class="btn btn-outline-light btn-sm listaction2">Example 1</button><button class="btn btn-outline-light btn-sm listaction3">Example 2</button>
+            </p>
+            <script>
+                $('.listaction2').click(function() {
+                    $('.redisimg0').toggle("slow")
+                });
+                $('.listaction3').click(function() {
+                    $('.redisimg0').hide()
+                    $('.redisimg1').slideToggle("slow")
+                    $('.para2009').toggle()
+                });
+            </script>
+            <img src="../images/redishelp.png" class="redisimg0" style="display: none" class="rounded">
+            <img src="../images/redismove.png" class="redisimg1" style="display: none" class="rounded">
+            <p class="redisimg1" style="display: none">
+                Contents: ELB acting as a load balancer forwarding requests to EC2 instances. EC2 instances running the application requesting data from ElastiCache and DynamoDB. DynamoDB storing the data used by the application ElastiCache caching read requests to DynamoDB
+                Lambda to invalidate and update the cache whenever an object stored in DynamoDB is created, updated or deleted.
+            </p>
+        </div>
+        <!-- Year 2014 -->
+        <div class="row col-md-8 offset-2 justify-content-center RowSevenYear" style="display: none">
+            <p><span class="spanfront">20<span>14</span></span> in 2014, Jeff Johnson, a Facebook representative announced the introduction of Apollo at the QCon New York. It is Facebook’s own version of NoSQL databases. This NoSQL database model is a hierarchical
+                storage system. The stored data in the advanced database is available in fragments, just like in region servers. However, the unique feature of the new NoSQL model is its online low latency storage system. <button class="btn btn-outline-light btn-sm listaction4">Why tho?</button>
+            </p>
+            <script>
+                $('.listaction4').click(function() {
+                    $('.redisimg1').slideToggle("slow")
+                    $('.apolloinfo').slideToggle("slow")
+                });
+            </script>
+            <p class="apolloinfo" style="display: none">
+                Facebook uses the state machines mostly for load balancing, shard generation and management, coordinating data transactions across machines and data migrations. However, the process is not perfect enough. These state machines can send RPC requests to
+                the remote servers. In addition to that, whenever users need to make changes to the persistent state of data, they need to go through Raft (Raft is an algorithm made by Stanford and is used for fault tolerance... <a target="_blank"
+                    href="https://raft.github.io/">Clarity</a>) and get all other servers to agree.
+            </p>
+        </div>
+        <!-- Year 2018 -->
+        <div class="row col-md-8 offset-0 justify-content-center RowEightYear" style="display: none">
+            <p><span class="spanfront">20<span>18</span></span>
+                Just Cloud. We'll get to that.
+            </p>
+            <div class="row justify-content-center arrow">
+                <button type="button" class="btn btn-light" onclick="pagefive()">
+                    <span class="nextspan">NEXT</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container SlideFive" style="display: none;">
+        <div class="row justify-content-center RowOne">
+            <div>
+                <h1>Relational Vs. Non-relational<span class="cursor">|</span></h1>
+            </div>
+        </div>
+        <div class="row justify-content-center RowTwo">
+            <div class="col-md-8">
+                <div class="server">
+                    <span class="onoff"></span>
+                    <div class="hdd"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center RowThree">
+            <div class="col-md-8">
+                <span class="arrow pagesixbutton" style="display: none">
+                    <button type="button" class="btn btn-light" onclick="pagesix()">
+                            <span class="nextspan">NEXT</span>
+                </button>
+                </span>
+                <button class="btn btn-outline-light btn-md displayrelat">Relational</button>
+                <button class="btn btn-outline-light btn-md offset-8 displaynon">Non-relational</button>
+                <script>
+                    $('.displayrelat').click(function() {
+                        $('.nonvrelatimg').toggle()
+                        $('.relatinfo').slideToggle("slow")
+                    });
+                    $('.displaynon').click(function() {
+                        $('.nonvrelatimg').hide()
+                        $('.scalingrelatinfo').hide()
+                        $('.relatinfo').hide()
+                        $('.confusionimg').hide()
+                        $('.noninfo').slideToggle()
+                        $('.nonvrelat2img').slideToggle()
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="row justify-content-center RowFour">
+            <img src="images/nonvrelat.jpg" class="rounded nonvrelatimg">
+            <p class="relatinfo" style="display: none">Relational databases are databases that operate on a relational model which have tables that contain rows and columns. Each table, which is sometimes called a relation, in a relational database contains one or more data categories in columns,
+                also called attributes. Each row, also called a record or tuple, contains a unique instance of data, or key, for the categories defined by the columns. Each table has a unique primary key, which identifies the information in a table. The
+                relationship between tables can then be set via the use of foreign keys -- a field in a table that links to the primary key of another table. <button class="btn btn-outline-light btn-sm scalingrelat">Scaling</button></p>
+            <p class="scalingrelatinfo" style="display: none">Vertical scaling. Relational databases scale vertically which means that you scale by adding more power (CPU, RAM) to an existing machine and therefore build up. This is very expensive and requires large facilities to hold the infrastructure.
+                Vertical-scaling is often limited to the capacity of a single machine, scaling beyond that capacity often involves downtime and comes with an upper limit. <button class="btn btn-outline-light btn-sm confused">Confusion?</button>
+            </p>
+            <img src="images/scalevertical.png" class="confusionimg" style="display: none">
+            <script>
+                $('.scalingrelat').click(function() {
+                    $('.scalingrelatinfo').slideToggle()
+                });
+                $('.confused').click(function() {
+                    $('.relatinfo').hide()
+                    $('.confusionimg').slideToggle()
+                });
+            </script>
+            <p class="noninfo" style="display: none">
+                A non-relational database is any database that does not follow the relational model provided by traditional relational database management systems. This category of databases, also referred to as NoSQL databases, has seen steady adoption growth in recent
+                years with the rise of Big Data applications. NoSQL databses use a key-value store and do not require complex queries like join operations in order to retrieve information. They are extremely flexible and can retrieve information at an
+                extremely fast rate. <button class="btn btn-outline-light btn-sm scalingnon">Scaling</button>
+            </p>
+            <p class="noninfo2" style="display: none">
+                Horizontal scaling means that you scale by adding more machines into your pool of resources. An easy way to remember this is to think of a machine on a server rack, we add more machines across the horizontal direction and add more resources to a machine
+                in the vertical direction. In a database world horizontal-scaling is often based on the partitioning of the data i.e. each node contains only part of the data, in vertical-scaling the data resides on a single node and scaling is done through
+                multi-core i.e. spreading the load between the CPU and RAM resources of that machine. With horizontal-scaling it is often easier to scale dynamically by adding more machines into the existing pool - Vertical-scaling is often limited to
+                the capacity of a single machine, scaling beyond that capacity often involves downtime and comes with an upper limit.
+            </p>
+            <img src="images/nonvrelat2.jpg" class="nonvrelat2img" style="display: none">
+            <img src="images/scalehoriz.png" class="scalehoriz" style="display: none">
+            <script>
+                $('.scalingnon').click(function() {
+                    $('.noninfo').hide()
+                    $('.noninfo2').slideToggle()
+                    $('.nonvrelat2img').hide()
+                    $('.scalehoriz').slideToggle()
+                    $('.pagesixbutton').show()
+                    $('.displayrelat').hide()
+                });
+            </script>
+        </div>
+    </div>
+    <div class="container SlideSix" style="display: none;">
+        <div class="row justify-content-center RowOne">
+            <div>
+                <h1>Big DATA<span class="cursor">|</span></h1>
+            </div>
+        </div>
+        <div class="row justify-content-center RowTwo">
+            <p>
+                Put simply, big data is larger, more complex data sets, especially from new data sources. These data sets are so voluminous that traditional data processing software just can’t manage them. But these massive volumes of data can be used to address business
+                problems that would not have been able to handle before.
+            </p>
+        </div>
+        <div class="row justify-content-center RowThree">
+            <table class="table table-borderless table-light">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Comp.</th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Youtube</td>
+                        <td>4,146,600 views per minute</td>
+                        <td>7.7 Petabytes data stored per year</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Snapchat</td>
+                        <td>527,760 Photos per minute</td>
+                        <td>Investments of $2 billion dollars in data storage on GCP</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Instagram</td>
+                        <td>46,740 Tweets per minute</td>
+                        <td>Over 500 PB divided in four groups (real time, processing, data warehouse and cold storage)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Netflix</td>
+                        <td>140 million hours streamed videos per day (Average)</td>
+                        <td>Over 6 petabytes of stored data within AWS</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>How do we store and retrieve this data quickly and efficiently?<br> Not all data is the same so how do we store data of different formats and sizes, but still maintain the same speed of retrieval?</p>
+        </div>
+        <div class="row justify-content-center arrow">
+            <button type="button" class="btn btn-light" onclick="pageSeven()">
+                <span class="nextspan">NEXT</span>
+            </button>
+        </div>
+    </div>
+    <div class="container SlideSeven" style="display: none;">
+        <div class="row justify-content-center RowOne">
+            <h1>Types of NoSQL DB's<span class="cursor">|</span></h1>
+        </div>
+        <div class="row justify-content-center RowTwo">
+            <img class="sss1img" src="images/keyvalue.jpg" style="display:block;">
+            <img class="sss2img" src="images/documentstore.png" style="display:none;">
+            <img class="sss3img" src="images/columnstore.jpg" style="display:none;">
+            <img class="sss4img" src="images/graphstore.png" style="display:none;">
+        </div>
+        <div class="row justify-content-center RowThree">
+            <div class="col-md-2 span1">
+                <a href="#">Key-Value Store</a>
+                <p>
+                    A key-value database (also known as a key-value store and key-value store database) is a type of NoSQL database that uses a simple key/value method to store data.
+                </p>
+            </div>
+            <div class="col-md-2 span2">
+                <a href="javascript: sss1();">Document-based Store</a>
+                <p>
+                    A key-value database (also known as a key-value store and key-value store database) is a type of NoSQL database that uses a simple key/value method to store data.
+                </p>
+            </div>
+            <div class="col-md-2 span3">
+                <a href="javascript: sss2();">Column-based Store</a>
+                <p class="sssnextreact">
+                    A key-value database (also known as a key-value store and key-value store database) is a type of NoSQL database that uses a simple key/value method to store data.
+                </p>
+                <div class="row justify-content-center arrow sssnext" style="display: none;">
+                    <button type="button" class="btn btn-light" onclick="pageEight()">
+                        <span class="nextspan">NEXT</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-2 span4">
+                <a href="javascript: sss3();">Graph-based Store</a>
+                <p>
+                    A key-value database (also known as a key-value store and key-value store database) is a type of NoSQL database that uses a simple key/value method to store data.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container SlideEight col-md-8" style="display: none;">
+        <div class="row justify-content-center RowOne">
+            <h1>NoSQL Today<span class="cursor">|</span></h1>
+        </div>
+        <div class="row justify-content-center RowTwo">
+            <p class="sep1">
+                Today NoSQL is all about the cloud. From NoSQL databases like BigTable, DynamoDB, and CosmosDB to MongoDB's Atlas, cloud is the way to go for big data. Why don't companies just host the NoSQL DB on-premise? <a href="javascript: sep1f();">well...</a>
+            </p>
+            <p class="sep2" style="display: none">Think about scaling? Even though you can scale with a NoSQL database a lot easier than a relational one it still costs. In the long run, you will still have to upgrade, maintain, and secure your systems. Cloud solves all of these issues and
+                does so in a <a href="javascript: sep2f();">better way</a>.
+            </p>
+            <p class="sep3" style="display: none">
+                With cloud, you can grow as large as you want and keep paying that same cost you got in for via contract, this way, you save more money. NoSQL does so well in cloud because of that and the fact that building fault tolerant infrastructures is easy. Don't
+                believe me? <a href="javascript: pageNine();">Let's see...</a>
+            </p>
+        </div>
+    </div>
+    <div class="container SlideNine col-md-8" style="display: none;">
+        <div class="row justify-content-center RowOne">
+            <h1>Demonstration<span class="cursor">|</span></h1>
+        </div>
+        <div class="row justify-content-center RowTwo">
+            <p>
+                If You're Reading This, my presentation isn't going as bad as I thought it would...
+            </p>
+            <img class="rounded mx-auto d-block" src="images/nervous.jpg">
+        </div>
+        <div class="row justify-content-center arrow">
+            <button type="button" class="btn btn-light" onclick="pageTen()">
+                <span class="nextspan">NEXT</span>
+            </button>
+        </div>
+    </div>
+    <div class="container SlideTen col-md-8" style="display: none;">
+        <div class="row justify-content-center RowOne">
+            <h1>Conclusion<span class="cursor">|</span></h1>
+        </div>
+        <div class="row justify-content-center RowTwo">
+            <p>
+                NoSQL is Great... Everyone should use it because its the best thing to use when you have Big Data. This doesn't mean Relational databases like MySQL are dead, it just means there is something possibly better out there for what you may or may not be doing.
+            </p>
+            <img class="rounded mx-auto d-block" src="images/lastimg.png">
+        </div>
+        <div class="row justify-content-center arrow">
+            <button type="button" class="btn btn-light" onclick="pageEleven()">
+                <span class="nextspan">NEXT</span>
+            </button>
+        </div>
+    </div>
+    <diV class="container SlideEleven col-md-8" style="display: none;">
+        <div class="row justify-content-center RowOne">
+            <h1>
+                <sapn class="span5">Q</sapn><span class="span1">u</span><span class="span1">es</span><span class="span2">t</span><span class="span3">i</span><span class="span4">o</span><span class="span1">ns</span><span class="cursor">?</span></h1>
+        </div>
+    </diV>
+</body>
+
+</html>

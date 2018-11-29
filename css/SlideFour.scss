@@ -1,0 +1,77 @@
+.SlideFour {
+    display: none;
+    .RowOneYear {
+        padding-top: 10%;
+        h1 {
+            color: $red;
+            font-size: 50px;
+            font-family: $font;
+            letter-spacing: 0.2rem;
+        }
+    }
+    .RowTwoYear {
+        padding-top: 50px;
+        a:hover {
+            text-decoration: none;
+            color: grey;
+        }
+        a {
+            color: $nice-white;
+        }
+        span {
+            color: $green;
+        }
+    }
+    .RowFourYear,
+    .RowThreeYear,
+    .RowFiveYear,
+    .RowSixYear,
+    .RowSevenYear,
+    .RowEightYear {
+        padding-top: 5%;
+        h1,
+        h2,
+        p {
+            color: $nice-white;
+            font-family: $font;
+        }
+        span {
+            color: $green;
+            font-family: $font;
+            font-size: 30px;
+        }
+        .span-next {
+            color: $blue;
+        }
+        .spanfront {
+            color: white;
+        }
+        .nextspan {
+            font-size: 15px;
+            color: black;
+        }
+        .listaction0 {
+            font-size: 15px;
+        }
+        .redisimg0,
+        .redisimg1 {
+            max-height: 500px;
+            max-width: 700px;
+        }
+        a:hover {
+            text-decoration: none;
+            .spanfront {
+                color: $blue;
+            }
+        }
+        img {
+            min-width: 450px;
+            min-height: 300px;
+            max-height: 300px;
+            max-width: 450px;
+            background-color: white;
+            border: 2px white;
+            border-radius: 10px;
+        }
+    }
+}

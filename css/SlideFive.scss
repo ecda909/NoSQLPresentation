@@ -1,0 +1,37 @@
+.SlideFive {
+    display: none;
+    @import 'RowOne';
+    .RowTwo {
+        padding-top: 50px;
+    }
+    .RowThree {
+        padding-top: 150px;
+    }
+    .RowFour {
+        padding-top: 50px;
+        h1,
+        h2,
+        p {
+            color: $nice-white;
+            font-family: $font;
+        }
+        img {
+            max-height: 600px;
+            max-height: 600px;
+        }
+        .confusionimg {
+            max-height: 400px;
+        }
+        .nonvrelat2img {
+            max-height: 400px;
+        }
+        .scalehoriz {
+            max-height: 350px;
+        }
+        .nextspan {
+            font-size: 15px;
+            color: black;
+        }
+    }
+    @import 'Server';
+}

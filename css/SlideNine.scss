@@ -1,0 +1,19 @@
+.SlideNine {
+    display: none;
+    @import 'RowOne';
+    .RowTwo {
+        padding-top: 50px;
+        h1,
+        h2,
+        p {
+            color: $nice-white;
+            font-family: $font;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            color: $nice-white;
+        }
+    }
+}

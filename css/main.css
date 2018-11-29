@@ -1,0 +1,513 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+/* scss variables */
+body {
+  background-color: #2e2e2e; }
+
+.SlideOne .RowOne {
+  padding-top: 10%;
+  padding-bottom: 50px; }
+  .SlideOne .RowOne h1 {
+    color: #fff;
+    font-family: "Source Code Pro", monospace;
+    letter-spacing: 0.2rem;
+    font-size: 25px; }
+.SlideOne .RowTwo h1 {
+  color: #fff;
+  font-family: "Source Code Pro", monospace;
+  letter-spacing: 0.4rem;
+  font-size: 45px; }
+.SlideOne .RowTwo span {
+  color: rgba(252, 41, 74, 0.99); }
+.SlideOne .dbimg {
+  padding-top: 10rem;
+  color: #9292f5; }
+
+.SlideTwo {
+  display: none; }
+  .SlideTwo .RowOne {
+    padding-top: 10%; }
+    .SlideTwo .RowOne h1 {
+      color: rgba(252, 41, 74, 0.99);
+      font-size: 50px;
+      font-family: "Source Code Pro", monospace;
+      letter-spacing: 0.2rem; }
+  .SlideTwo .toc {
+    color: #fff;
+    font-family: "Source Code Pro", monospace; }
+    .SlideTwo .toc span {
+      color: rgba(252, 41, 74, 0.99); }
+  .SlideTwo .tocsub {
+    padding-top: 50px;
+    color: #fff;
+    font-family: "Source Code Pro", monospace; }
+    .SlideTwo .tocsub .span1 {
+      margin-left: 665px; }
+    .SlideTwo .tocsub .span2 {
+      margin-left: 622px; }
+    .SlideTwo .tocsub .span3 {
+      margin-left: 742px; }
+    .SlideTwo .tocsub .span4 {
+      margin-left: 818px; }
+    .SlideTwo .tocsub .span5 {
+      margin-left: 728px; }
+    .SlideTwo .tocsub .span6 {
+      margin-left: 563px; }
+    .SlideTwo .tocsub .span7 {
+      margin-left: 684px; }
+    .SlideTwo .tocsub .span8 {
+      margin-left: 655px; }
+    .SlideTwo .tocsub .span9 {
+      margin-left: 700px; }
+    .SlideTwo .tocsub .span10 {
+      margin-left: 700px; }
+    .SlideTwo .tocsub ul li {
+      font-size: 25px; }
+  .SlideTwo .arrow {
+    color: #fff;
+    padding-top: 0%; }
+    .SlideTwo .arrow .btn {
+      letter-spacing: 0.2rem;
+      font-size: 15px;
+      border: none;
+      border-radius: 6px; }
+      .SlideTwo .arrow .btn span {
+        font-family: "Source Code Pro", monospace; }
+      .SlideTwo .arrow .btn:hover, .SlideTwo .arrow .btn:focus {
+        background-color: #aef98c; }
+      .SlideTwo .arrow .btn:active {
+        top: 2px; }
+
+.SlideThree {
+  display: none; }
+  .SlideThree .RowOne {
+    padding-top: 10%; }
+    .SlideThree .RowOne h1 {
+      color: rgba(252, 41, 74, 0.99);
+      font-size: 50px;
+      font-family: "Source Code Pro", monospace;
+      letter-spacing: 0.2rem; }
+  .SlideThree .RowTwo p {
+    padding-top: 50px;
+    color: #fff;
+    font-size: 30px; }
+  .SlideThree .RowTwo .span1 {
+    color: #00aaf8; }
+  .SlideThree .RowTwo .icon {
+    color: #43ff43; }
+  .SlideThree .RowTwo .icontwo {
+    color: rgba(252, 41, 74, 0.99); }
+  .SlideThree .arrow {
+    color: #fff;
+    padding-top: 15%; }
+    .SlideThree .arrow .btn {
+      letter-spacing: 0.2rem;
+      font-size: 15px;
+      border: none;
+      border-radius: 6px; }
+      .SlideThree .arrow .btn span {
+        font-family: "Source Code Pro", monospace; }
+      .SlideThree .arrow .btn:hover, .SlideThree .arrow .btn:focus {
+        background-color: #aef98c; }
+      .SlideThree .arrow .btn:active {
+        top: 2px; }
+
+.SlideFour {
+  display: none; }
+  .SlideFour .RowOneYear {
+    padding-top: 10%; }
+    .SlideFour .RowOneYear h1 {
+      color: rgba(252, 41, 74, 0.99);
+      font-size: 50px;
+      font-family: "Source Code Pro", monospace;
+      letter-spacing: 0.2rem; }
+  .SlideFour .RowTwoYear {
+    padding-top: 50px; }
+    .SlideFour .RowTwoYear a:hover {
+      text-decoration: none;
+      color: grey; }
+    .SlideFour .RowTwoYear a {
+      color: #fff; }
+    .SlideFour .RowTwoYear span {
+      color: #43ff43; }
+  .SlideFour .RowFourYear,
+  .SlideFour .RowThreeYear,
+  .SlideFour .RowFiveYear,
+  .SlideFour .RowSixYear,
+  .SlideFour .RowSevenYear,
+  .SlideFour .RowEightYear {
+    padding-top: 5%; }
+    .SlideFour .RowFourYear h1,
+    .SlideFour .RowFourYear h2,
+    .SlideFour .RowFourYear p,
+    .SlideFour .RowThreeYear h1,
+    .SlideFour .RowThreeYear h2,
+    .SlideFour .RowThreeYear p,
+    .SlideFour .RowFiveYear h1,
+    .SlideFour .RowFiveYear h2,
+    .SlideFour .RowFiveYear p,
+    .SlideFour .RowSixYear h1,
+    .SlideFour .RowSixYear h2,
+    .SlideFour .RowSixYear p,
+    .SlideFour .RowSevenYear h1,
+    .SlideFour .RowSevenYear h2,
+    .SlideFour .RowSevenYear p,
+    .SlideFour .RowEightYear h1,
+    .SlideFour .RowEightYear h2,
+    .SlideFour .RowEightYear p {
+      color: #fff;
+      font-family: "Source Code Pro", monospace; }
+    .SlideFour .RowFourYear span,
+    .SlideFour .RowThreeYear span,
+    .SlideFour .RowFiveYear span,
+    .SlideFour .RowSixYear span,
+    .SlideFour .RowSevenYear span,
+    .SlideFour .RowEightYear span {
+      color: #43ff43;
+      font-family: "Source Code Pro", monospace;
+      font-size: 30px; }
+    .SlideFour .RowFourYear .span-next,
+    .SlideFour .RowThreeYear .span-next,
+    .SlideFour .RowFiveYear .span-next,
+    .SlideFour .RowSixYear .span-next,
+    .SlideFour .RowSevenYear .span-next,
+    .SlideFour .RowEightYear .span-next {
+      color: #00aaf8; }
+    .SlideFour .RowFourYear .spanfront,
+    .SlideFour .RowThreeYear .spanfront,
+    .SlideFour .RowFiveYear .spanfront,
+    .SlideFour .RowSixYear .spanfront,
+    .SlideFour .RowSevenYear .spanfront,
+    .SlideFour .RowEightYear .spanfront {
+      color: white; }
+    .SlideFour .RowFourYear .nextspan,
+    .SlideFour .RowThreeYear .nextspan,
+    .SlideFour .RowFiveYear .nextspan,
+    .SlideFour .RowSixYear .nextspan,
+    .SlideFour .RowSevenYear .nextspan,
+    .SlideFour .RowEightYear .nextspan {
+      font-size: 15px;
+      color: black; }
+    .SlideFour .RowFourYear .listaction0,
+    .SlideFour .RowThreeYear .listaction0,
+    .SlideFour .RowFiveYear .listaction0,
+    .SlideFour .RowSixYear .listaction0,
+    .SlideFour .RowSevenYear .listaction0,
+    .SlideFour .RowEightYear .listaction0 {
+      font-size: 15px; }
+    .SlideFour .RowFourYear .redisimg0,
+    .SlideFour .RowFourYear .redisimg1,
+    .SlideFour .RowThreeYear .redisimg0,
+    .SlideFour .RowThreeYear .redisimg1,
+    .SlideFour .RowFiveYear .redisimg0,
+    .SlideFour .RowFiveYear .redisimg1,
+    .SlideFour .RowSixYear .redisimg0,
+    .SlideFour .RowSixYear .redisimg1,
+    .SlideFour .RowSevenYear .redisimg0,
+    .SlideFour .RowSevenYear .redisimg1,
+    .SlideFour .RowEightYear .redisimg0,
+    .SlideFour .RowEightYear .redisimg1 {
+      max-height: 500px;
+      max-width: 700px; }
+    .SlideFour .RowFourYear a:hover,
+    .SlideFour .RowThreeYear a:hover,
+    .SlideFour .RowFiveYear a:hover,
+    .SlideFour .RowSixYear a:hover,
+    .SlideFour .RowSevenYear a:hover,
+    .SlideFour .RowEightYear a:hover {
+      text-decoration: none; }
+      .SlideFour .RowFourYear a:hover .spanfront,
+      .SlideFour .RowThreeYear a:hover .spanfront,
+      .SlideFour .RowFiveYear a:hover .spanfront,
+      .SlideFour .RowSixYear a:hover .spanfront,
+      .SlideFour .RowSevenYear a:hover .spanfront,
+      .SlideFour .RowEightYear a:hover .spanfront {
+        color: #00aaf8; }
+    .SlideFour .RowFourYear img,
+    .SlideFour .RowThreeYear img,
+    .SlideFour .RowFiveYear img,
+    .SlideFour .RowSixYear img,
+    .SlideFour .RowSevenYear img,
+    .SlideFour .RowEightYear img {
+      min-width: 450px;
+      min-height: 300px;
+      max-height: 300px;
+      max-width: 450px;
+      background-color: white;
+      border: 2px white;
+      border-radius: 10px; }
+
+.SlideFive {
+  display: none;
+  /* Server CSS */ }
+  .SlideFive .RowOne {
+    padding-top: 10%; }
+    .SlideFive .RowOne h1 {
+      color: rgba(252, 41, 74, 0.99);
+      font-size: 50px;
+      font-family: "Source Code Pro", monospace;
+      letter-spacing: 0.2rem; }
+  .SlideFive .RowTwo {
+    padding-top: 50px; }
+  .SlideFive .RowThree {
+    padding-top: 150px; }
+  .SlideFive .RowFour {
+    padding-top: 50px; }
+    .SlideFive .RowFour h1,
+    .SlideFive .RowFour h2,
+    .SlideFive .RowFour p {
+      color: #fff;
+      font-family: "Source Code Pro", monospace; }
+    .SlideFive .RowFour img {
+      max-height: 600px;
+      max-height: 600px; }
+    .SlideFive .RowFour .confusionimg {
+      max-height: 400px; }
+    .SlideFive .RowFour .nonvrelat2img {
+      max-height: 400px; }
+    .SlideFive .RowFour .scalehoriz {
+      max-height: 350px; }
+    .SlideFive .RowFour .nextspan {
+      font-size: 15px;
+      color: black; }
+  .SlideFive .server {
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    width: 400px;
+    height: 90px;
+    background-color: #2C3E50; }
+  .SlideFive .server:after {
+    content: '';
+    position: absolute;
+    top: 46%;
+    left: 85%;
+    width: 70px;
+    height: 8px;
+    transform: rotate(90deg);
+    background-color: #ECF0F1;
+    border-radius: 10px; }
+  .SlideFive .server:before {
+    content: '';
+    position: absolute;
+    top: 46%;
+    left: -3%;
+    width: 70px;
+    height: 8px;
+    transform: rotate(90deg);
+    background-color: #ECF0F1;
+    border-radius: 10px; }
+  .SlideFive .hdd {
+    position: absolute;
+    top: 35%;
+    left: 38%;
+    width: 70px;
+    height: 30px;
+    background-color: #ECF0F1;
+    transform: rotate(90deg); }
+  .SlideFive .hdd:before {
+    content: '';
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    width: 10px;
+    height: 10px;
+    background-color: #336E7B;
+    animation: blink 0.8s cubic-bezier(0, 0.64, 0.97, 0.53) infinite; }
+  .SlideFive .hdd:after {
+    content: '';
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    width: 30px;
+    height: 10px;
+    background-color: #6C7A89;
+    border-radius: 10px; }
+  .SlideFive .onoff {
+    background-color: #19b326;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    animation: blink 2s ease-out infinite; }
+@keyframes blink {
+  0% {
+    background-color: #336E7B; }
+  49% {
+    background-color: #1BBC9B; }
+  50% {
+    background-color: #336E7B; }
+  100% {
+    background-color: #1BBC9B; } }
+.SlideSix {
+  display: none; }
+  .SlideSix .RowOne {
+    padding-top: 10%; }
+    .SlideSix .RowOne h1 {
+      color: rgba(252, 41, 74, 0.99);
+      font-size: 50px;
+      font-family: "Source Code Pro", monospace;
+      letter-spacing: 0.2rem; }
+  .SlideSix .RowTwo {
+    padding-top: 50px; }
+    .SlideSix .RowTwo h1,
+    .SlideSix .RowTwo h2,
+    .SlideSix .RowTwo p {
+      color: #fff;
+      font-family: "Source Code Pro", monospace; }
+  .SlideSix .RowThree h1,
+  .SlideSix .RowThree h2,
+  .SlideSix .RowThree p {
+    color: #fff;
+    font-family: "Source Code Pro", monospace; }
+  .SlideSix .arrow {
+    padding-top: 5%; }
+
+.SlideSeven {
+  display: none; }
+  .SlideSeven .RowOne {
+    padding-top: 10%; }
+    .SlideSeven .RowOne h1 {
+      color: rgba(252, 41, 74, 0.99);
+      font-size: 50px;
+      font-family: "Source Code Pro", monospace;
+      letter-spacing: 0.2rem; }
+  .SlideSeven .RowTwo img {
+    padding-top: 60px; }
+  .SlideSeven .RowThree {
+    padding-top: 50px; }
+    .SlideSeven .RowThree div,
+    .SlideSeven .RowThree h1,
+    .SlideSeven .RowThree h2,
+    .SlideSeven .RowThree p {
+      padding-top: 10px;
+      color: #fff;
+      font-family: "Source Code Pro", monospace; }
+    .SlideSeven .RowThree a {
+      text-decoration: none; }
+    .SlideSeven .RowThree a:hover {
+      color: #fff; }
+    .SlideSeven .RowThree .arrow {
+      padding-top: 30px; }
+
+.SlideEight {
+  display: none; }
+  .SlideEight .RowOne {
+    padding-top: 10%; }
+    .SlideEight .RowOne h1 {
+      color: rgba(252, 41, 74, 0.99);
+      font-size: 50px;
+      font-family: "Source Code Pro", monospace;
+      letter-spacing: 0.2rem; }
+  .SlideEight .RowTwo {
+    padding-top: 50px; }
+    .SlideEight .RowTwo h1,
+    .SlideEight .RowTwo h2,
+    .SlideEight .RowTwo p {
+      color: #fff;
+      font-family: "Source Code Pro", monospace; }
+    .SlideEight .RowTwo a {
+      text-decoration: none; }
+    .SlideEight .RowTwo a:hover {
+      color: #fff; }
+
+.SlideNine {
+  display: none; }
+  .SlideNine .RowOne {
+    padding-top: 10%; }
+    .SlideNine .RowOne h1 {
+      color: rgba(252, 41, 74, 0.99);
+      font-size: 50px;
+      font-family: "Source Code Pro", monospace;
+      letter-spacing: 0.2rem; }
+  .SlideNine .RowTwo {
+    padding-top: 50px; }
+    .SlideNine .RowTwo h1,
+    .SlideNine .RowTwo h2,
+    .SlideNine .RowTwo p {
+      color: #fff;
+      font-family: "Source Code Pro", monospace; }
+    .SlideNine .RowTwo a {
+      text-decoration: none; }
+    .SlideNine .RowTwo a:hover {
+      color: #fff; }
+
+.SlideTen {
+  display: none; }
+  .SlideTen .RowOne {
+    padding-top: 10%; }
+    .SlideTen .RowOne h1 {
+      color: rgba(252, 41, 74, 0.99);
+      font-size: 50px;
+      font-family: "Source Code Pro", monospace;
+      letter-spacing: 0.2rem; }
+  .SlideTen .RowTwo {
+    padding-top: 50px; }
+    .SlideTen .RowTwo h1,
+    .SlideTen .RowTwo h2,
+    .SlideTen .RowTwo p {
+      color: #fff;
+      font-family: "Source Code Pro", monospace; }
+  .SlideTen .arrow {
+    padding-top: 8%; }
+
+.SlideEleven {
+  display: none; }
+  .SlideEleven .RowOne {
+    padding-top: 30%;
+    color: rgba(252, 41, 74, 0.99);
+    font-size: 50px;
+    font-family: "Source Code Pro", monospace;
+    letter-spacing: 0.2rem; }
+  .SlideEleven .span1 {
+    color: #fff; }
+  .SlideEleven .span2 {
+    color: #43ff43; }
+  .SlideEleven .span3 {
+    color: #ffc353; }
+  .SlideEleven .span4 {
+    color: #A63ED9; }
+  .SlideEleven .span5 {
+    font-size: 100px; }
+
+.arrow {
+  color: #fff;
+  padding-top: 12%; }
+  .arrow .btn {
+    letter-spacing: 0.2rem;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px; }
+    .arrow .btn span {
+      font-family: "Source Code Pro", monospace; }
+    .arrow .btn:hover, .arrow .btn:focus {
+      background-color: #aef98c; }
+    .arrow .btn:active {
+      top: 2px; }
+
+.cursor {
+  color: rgba(252, 41, 74, 0.99);
+  opacity: 1;
+  -webkit-animation: blink 1s infinite cubic-bezier(1, 0, 0, 1);
+  -moz-animation: blink 1s infinite cubic-bezier(1, 0, 0, 1);
+  animation: blink 1s infinite cubic-bezier(1, 0, 0, 1); }
+
+@keyframes blink {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=main.css.map */

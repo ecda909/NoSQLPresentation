@@ -1,0 +1,27 @@
+.SlideOne {
+    .RowOne {
+        padding-top: 10%;
+        padding-bottom: 50px;
+        h1 {
+            color: $nice-white;
+            font-family: $font;
+            letter-spacing: 0.2rem;
+            font-size: 25px;
+        }
+    }
+    .RowTwo {
+        h1 {
+            color: $nice-white;
+            font-family: $font;
+            letter-spacing: 0.4rem;
+            font-size: 45px;
+        }
+        span {
+            color: $red;
+        }
+    }
+    .dbimg {
+        padding-top: 10rem;
+        color: rgb(146, 146, 245);
+    }
+}

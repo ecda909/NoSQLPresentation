@@ -1,0 +1,25 @@
+.SlideEleven {
+    display: none;
+    .RowOne {
+        padding-top: 30%;
+        color: $red;
+        font-size: 50px;
+        font-family: $font;
+        letter-spacing: 0.2rem;
+    }
+    .span1 {
+        color: $nice-white;
+    }
+    .span2 {
+        color: $green;
+    }
+    .span3 {
+        color: $orange;
+    }
+    .span4 {
+        color: $purple;
+    }
+    .span5 {
+        font-size: 100px;
+    }
+}

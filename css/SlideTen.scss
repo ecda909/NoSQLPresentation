@@ -1,0 +1,16 @@
+.SlideTen {
+    display: none;
+    @import 'RowOne';
+    .RowTwo {
+        padding-top: 50px;
+        h1,
+        h2,
+        p {
+            color: $nice-white;
+            font-family: $font;
+        }
+    }
+    .arrow {
+        padding-top: 8%;
+    }
+}

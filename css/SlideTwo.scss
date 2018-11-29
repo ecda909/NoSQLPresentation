@@ -1,0 +1,71 @@
+.SlideTwo {
+    display: none;
+    @import 'RowOne';
+    .toc {
+        color: $nice-white;
+        font-family: $font;
+        span {
+            color: $red;
+        }
+    }
+    .tocsub {
+        padding-top: 50px;
+        color: $nice-white;
+        font-family: $font;
+        .span1 {
+            margin-left: 665px;
+        }
+        .span2 {
+            margin-left: 622px;
+        }
+        .span3 {
+            margin-left: 742px;
+        }
+        .span4 {
+            margin-left: 818px;
+        }
+        .span5 {
+            margin-left: 728px;
+        }
+        .span6 {
+            margin-left: 563px;
+        }
+        .span7 {
+            margin-left: 684px;
+        }
+        .span8 {
+            margin-left: 655px;
+        }
+        .span9 {
+            margin-left: 700px;
+        }
+        .span10 {
+            margin-left: 700px;
+        }
+        ul {
+            li {
+                font-size: 25px;
+            }
+        }
+    }
+    .arrow {
+        color: $nice-white;
+        padding-top: 0%;
+        .btn {
+            span {
+                font-family: $font;
+            }
+            letter-spacing: 0.2rem;
+            font-size: 15px;
+            border: none;
+            border-radius:6px;
+            &:hover,
+            &:focus {
+                background-color: darken(#bffaa4, 5%);
+            }
+            &:active {
+                top: 2px;
+            }
+        }
+    }
+}
